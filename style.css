@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*    margin: 5vw;*/
+    font-family: sans-serif;
+    /*margin: 0;*/
+
+}
+
+img {
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    /*color: #f2f2f2;*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: flex-end;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+#forside {
+    /*width: 100vw;
+    height: 100vh;*/
+    background-image: ;
+    background-size: cover;
+    background-position: 25% 0%;
+    max-width: 1550px;
+    padding: 9px;
+}
+
+
+#temaer .sectionwrapper {
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: .5vw;
+    margin: 50px;
+    padding: 5px;
+
+}
+
+#temaer .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 127, 80, 0.49);
+
+}
+
+
+
+#temaer .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+#temaer .col {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+    margin: 2vw;
+
+}
+
+#temaer .col:hover .overlay {
+    opacity: 1;
+}
+
+#tema1 .col:hover .overlay {
+    opacity: 1;
+}
+
+
+
+#tema1 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 127, 80, 0.49);
+
+}
+
+
+
+#tema1 .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+#tema1 .col {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+
+}
+
+#tema1 .sectionwrapper {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+    margin: 2vw;
+}
+
+#tema1 .col:hover .overlay {
+    opacity: 1;
+}
+
+
+#tema4 .col:hover .overlay {
+    opacity: 1;
+}
+
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4vw;
+
+}
+
+#om .col {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 2vw;
+
+}
+
+
+@media only screen and (min-width:401px) {
+    #splash {
+        background-position: 75% 0%;
+    }
+
+    #header {
+        background-position: 75% 0%;
+    }
+}
+
+@media only screen and (min-width:680px) {
+    #splash {
+        background-position: 45% 0%;
+    }
+
+    #header {
+        background-position: 45% 0%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+
+
+
+footer .sectionwrapper {
+    background-color: #333;
+    font-display: block;
+}
+
+footer .col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vw;
+}
+
+
+/*TEMA2+4*/
+#tematest {
+    display: block;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+#tematest .sectionwrapper {
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    margin: 1vw;
+
+}
+
+#tematest .sectionwrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 2vw;
+}
+
+#tematest .sectionwrapper3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 2vw;
+}
+
+#tematest .sectionwrapper4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 2vw;
+    margin: 2vw;
+
+}
+
+#tematest .sectionwrapper7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 2vw;
+    margin: 2vw;
+}
+
+video {
+    flex-grow: 1;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#tematest .col1 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    margin-top: 50px;
+    flex-basis: 300px;
+
+}
+
+
+#tematest .col1 img {
+    display: block;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+#tematest .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 128, 0, 0.38);
+}
+
+#tematest .col1:hover .overlay {
+    opacity: 1;
+}
+
+#tematest .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 47%;
+
+    -webkit-transform: translate(48%, -50%);
+    -ms-transform: translate(-48%, -50%);
+    transform: translate(-48%, -50%);
+}
+
+#tematest .col2 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    margin-top: 50px;
+    flex-basis: 300px;
+}
+
+
+#tematest .col2 img {
+    display: block;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+
+#tematest .col2:hover .overlay {
+    opacity: 1;
+}
+
+
+#tematest .col3 {
+    position: relative;
+    width: 20wv;
+    /*    height: 20wv;*/
+    margin-top: 50px;
+    flex-basis: 300px;
+}
+
+
+#tematest .col3 img {
+    display: block;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+
+#tematest .col3:hover .overlay {
+    opacity: 1;
+}
+
+
+
+#tematest .col4 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+}
+
+
+#tematest .col4 img {
+    display: block;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+
+#tematest .col4:hover .overlay {
+    opacity: 1;
+}
+
+
+#tematest .col5 {
+    position: relative;
+    width: 20wv;
+    height: 20wv;
+    flex-basis: 300px;
+}
+
+
+#tematest .col5 img {
+    display: block;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+#tematest .col5:hover .overlay {
+    opacity: 1;
+}
+
+
+
+#tematest .col {
+    padding: 2vw;
+    margin: 2vw;
+}
